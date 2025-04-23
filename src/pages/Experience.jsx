@@ -5,6 +5,7 @@ import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { Cursor, useTypewriter } from "react-simple-typewriter";
 
 import htmlImage from "../assets/images/html.png";
 import cssImage from "../assets/images/css.png";
@@ -23,6 +24,7 @@ import blynkImage from "../assets/images/blynk.png";
 import mysqlImage from "../assets/images/mysql.png";
 import postgresqlImage from "../assets/images/postgresql.png";
 import firebaseImage from "../assets/images/firebase.png";
+
 
 const frontendImages = [
   { src: htmlImage, alt: "HTML" },
@@ -50,6 +52,13 @@ const databaseImages = [
 ];
 
 export default function Experience() {
+
+  const [text] = useTypewriter({
+    words:["These are the tech stacks I have worked with in my personal, academic, and internship projects."],
+    loop:1,
+    typeSpeed:50,
+  });
+
   return (
     <div className="min-h-screen bg-gradient-to-r from-gray-500 to-black">
       <Header />
@@ -193,6 +202,7 @@ export default function Experience() {
             </div>
           </div>
         </div>
+        <span className="text-white mt-10 md:mt-20 w-90 md:w-200">{text}<Cursor cursorStyle="|"/></span>
         <span className="mt-10" />
       </div>
     </div>
