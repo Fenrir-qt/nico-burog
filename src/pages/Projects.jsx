@@ -75,6 +75,7 @@ export default function Projects() {
             autoplay={{ delay: 3000 }}
             spaceBetween={50}
             slidesPerView={1}
+            loop={true}
             className="w-75 md:w-300"
             onSwiper={(swiper) => (swiperRef.current = swiper)}
           >
