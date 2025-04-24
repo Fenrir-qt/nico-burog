@@ -52,6 +52,7 @@ const databaseImages = [
 export default function Experience() {
   return (
     <div className="min-h-screen bg-gradient-to-r from-gray-500 to-black">
+      <title>Skills & Experience</title>
       <Header />
       <div className="flex flex-col items-center mt-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
