@@ -33,8 +33,8 @@ function Header() {
           <NavLink to="/">
             <li className="hover:text-gray-600">Home</li>
           </NavLink>
-          <NavLink to="/experience">
-            <li className="hover:text-gray-600">Experience</li>
+          <NavLink to="/skills">
+            <li className="hover:text-gray-600">Skills</li>
           </NavLink>
           <NavLink to="/contact">
             <li className="hover:text-gray-600">Contact</li>

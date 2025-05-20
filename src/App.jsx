@@ -10,7 +10,7 @@ function App(){
     <BrowserRouter basename="/nico-burog">
       <Routes>
         <Route path="/" element={<LandingPage/>} />
-        <Route path="/experience" element={<Experience/>}/>
+        <Route path="/skills" element={<Experience/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/projects" element={<Projects/>}/>
       </Routes>
