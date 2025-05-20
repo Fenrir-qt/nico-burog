@@ -20,34 +20,34 @@ export default function LandingPage() {
   return (
     <>
       <title>Home</title>
-      <div className="min-h-screen bg-gradient-to-r from-gray-500 to-black">
+      <div className="min-h-screen bg-gradient-to-r from-gray-500 to-black flex flex-col">
         <Header />
-        <div className="flex flex-col justify-start items-center px-10 text-white text-3xl font-bold">
-          <div className="relative w-75 md:w-80 lg:w-150 h-20 md:h-50 rounded-lg bg-white flex justify-center items-center mt-40 mb-15 lg:mb-25">
-            <img
-              src={self}
-              alt="me"
-              className="rounded-xl object-contain"
-            />
+        <div className="flex flex-col md:flex-row items-center justify-center flex-grow px-10 text-white text-3xl font-bold">
+          <div className="md:flex-1 flex justify-center order-first md:order-last mb-10 md:mb-0 ">
+            <div className="w-75 md:w-80 lg:w-150 h-20 md:h-50 rounded-lg bg-white flex justify-center items-center">
+              <img src={self} alt="me" className="rounded-xl object-contain" />
+            </div>
           </div>
-          <div className="text-5xl">
-            Hi There! My name is
-            <span className="text-gray-400 text-shadow-lg mb-5">
-              {" "}
-              Nico Angelo.
-            </span>
-          </div>
-          <div className="mt-4">
-            I am an aspiring
-            <span className="italic text-sky-300">
-              {text}
-              <Cursor cursorStyle="_" />
-            </span>
-            <br />
-            <span className="text-center text-[20px] block mt-8 md:mt-15 mb-20 md:mb-10text-slate-300">
-              {welcome}
-              <Cursor cursorStyle=" " />
-            </span>
+          <div className="md:flex-1 text-center md:text-left md:ml-20 ml-0 md:mt-0 mt-10">
+            <div className="text-5xl">
+              Hi There! My name is
+              <span className="text-gray-400 text-shadow-lg mb-5">
+                {" "}
+                Nico Angelo.
+              </span>
+            </div>
+            <div className="mt-4">
+              I am an aspiring
+              <span className="italic text-sky-300">
+                {text}
+                <Cursor cursorStyle="_" />
+              </span>
+              <br />
+              <span className="text-[20px] block mt-8 md:mt-15 mb-20 md:mb-10 text-slate-300">
+                {welcome}
+                <Cursor cursorStyle=" " />
+              </span>
+            </div>
           </div>
         </div>
       </div>
