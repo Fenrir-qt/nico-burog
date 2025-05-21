@@ -1,6 +1,6 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import self from "../assets/images/me.jpg";
+import self from "../assets/images/Mirror.png";
 import Header from "../components/Header";
 
 export default function LandingPage() {
@@ -24,8 +24,8 @@ export default function LandingPage() {
         <Header />
         <div className="flex flex-col md:flex-row items-center justify-center flex-grow px-10 text-white text-3xl font-bold">
           <div className="md:flex-1 flex justify-center order-first md:order-last mb-10 md:mb-0 ">
-            <div className="w-75 md:w-80 lg:w-150 h-20 md:h-50 rounded-lg bg-white flex justify-center items-center">
-              <img src={self} alt="me" className="rounded-xl object-contain" />
+            <div className="w-75 md:w-80 lg:w-150 h-20 md:h-50 rounded-lg flex justify-center items-center">
+              <img src={self} alt="me" className="rounded-xl object-contain md:ml-40 ml-0 opacity-80" />
             </div>
           </div>
           <div className="md:flex-1 text-center md:text-left md:ml-20 ml-0 md:mt-0 mt-10">
