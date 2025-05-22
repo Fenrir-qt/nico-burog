@@ -8,5 +8,11 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  /* Used for localhost testing
+  server: {
+    host: true,
+    port: 5173,      
+  },
+  */
   base: "/nico-burog"
 })
