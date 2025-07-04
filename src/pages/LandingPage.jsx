@@ -5,7 +5,7 @@ import Header from "../components/Header";
 
 export default function LandingPage() {
   const [text] = useTypewriter({
-    words: [" Full-Stack Developer.", " Web Developer.", " App Developer."],
+    words: [" Web Developer.", " App Developer.", " Cybersecurity Specialist."],
     loop: true,
     typeSpeed: 30,
   });
