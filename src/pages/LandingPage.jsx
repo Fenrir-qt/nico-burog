@@ -29,7 +29,7 @@ export default function LandingPage() {
             </div>
           </div>
           <div className="md:flex-1 text-center md:text-left md:ml-20 ml-0 md:mt-0 mt-10">
-            <div className="text-5xl">
+            <div className="text-3xl lg:text-5xl mt-5 lg:mt-0">
               Hi There! My name is
               <span className="text-gray-400 text-shadow-lg mb-5">
                 {" "}
