@@ -51,7 +51,7 @@ function Hero() {
               <p>
                 A developer in the making, crafting web & mobile apps,
                 <br className=" hidden sm:inline" />
-                with a hacker's curiosity for security. On a mission to merge
+                with a hacker's curiosity for security. On a mission to merge&nbsp;
                 <br className=" hidden sm:inline" />
                 creativity with security one project at a time.
               </p>
