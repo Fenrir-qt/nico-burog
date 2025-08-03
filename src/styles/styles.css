@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import 'tailwindcss';
+
+* {
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.dark-mode-header {
+  background-color: #121212;
+  color: white;
+}
+
+.ul-dark-font {
+    color:white;
+}
+
+.card-background {
+  background-color: #3d3c3a;
+}
+
+.card-font-color{
+  color: white;
+}
+
+
