@@ -32,6 +32,7 @@ function Contact() {
 
   return (
     <>
+      <title>Contact</title>
       <div
         className={`bg-neutral-50 min-h-screen transition duration-500 transform ease-in-out ${
           isDarkMode ? "dark-mode-header" : ""
