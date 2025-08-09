@@ -13,6 +13,7 @@ import CozyControl from "../assets/images/cozy_control.png";
 import GasLawSys from "../assets/images/gas_law.png";
 import GeoHazard from "../assets/images/geo_hazard.png";
 import FoodSystem from "../assets/images/pansiteria.png";
+import Tadaa from "../assets/images/tadaa.png";
 import TechTrolley from "../assets/images/techtrolley.png";
 import UpskillAI from "../assets/images/upskill.png";
 import Weatherly from "../assets/images/weatherly.png";
@@ -67,6 +68,14 @@ function Projects() {
         "A straightforward Python-based CLI food ordering system focused on pansiterias and lomians. This final project was built using Object-Oriented Programming (OOP) principles in Python. It features a text-based menu, order management, and simple cart logic.",
       image: FoodSystem,
       github: "https://github.com/Fenrir-qt/food-ordering-system",
+      customClass: "object-scale-down",
+    },
+    {
+      title: "Tadaa! A to-do app",
+      description:
+        "A simple and responsive To-Do List Application built with Vanilla HTML, Node.js, and Tailwind CSS, using REST API and the Fetch API for CRUD operations.",
+      image: Tadaa,
+      github: "https://github.com/Fenrir-qt/todo_app",
       customClass: "object-scale-down",
     },
     {
