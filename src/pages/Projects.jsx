@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
+import AppleClone from "../assets/images/apple_clone.png"
 import CozyControl from "../assets/images/cozy_control.png";
 import GasLawSys from "../assets/images/gas_law.png";
 import GeoHazard from "../assets/images/geo_hazard.png";
@@ -54,6 +55,14 @@ function Projects() {
       image: Weatherly,
       link: "https://weatherly-seven-rho.vercel.app/",
       github: "https://github.com/Fenrir-qt/weatherly",
+    },
+    {
+      title: "Apple Website Clone",
+      description:
+        "A responsive, high-fidelity clone of the Apple website built with React, Vite, TypeScript, and Tailwind CSS. This project replicates the look and feel of Apple's homepage, including smooth animations, responsive layouts, and interactive UI components.",
+      image: AppleClone,
+      link: "https://apple-site-clone-iota.vercel.app",
+      github: "https://github.com/Fenrir-qt/apple-site-clone"
     },
     {
       title: "Gas Law System",
