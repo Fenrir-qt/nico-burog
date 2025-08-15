@@ -41,7 +41,7 @@ const ParticlesComponent = memo((props) => {
       interactivity: {
         events: {
           onClick: {
-            enable: true,
+            enable: false,
             mode: "repulse",
           },
           onHover: {
@@ -77,7 +77,7 @@ const ParticlesComponent = memo((props) => {
             default: "bounce",
           },
           random: true,
-          speed: 1,
+          speed: 4,
           straight: false,
         },
         number: {
