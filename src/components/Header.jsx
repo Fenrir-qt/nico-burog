@@ -56,7 +56,7 @@ export default function Header() {
           <button
             onClick={toggleDarkMode}
             className="cursor-pointer"
-            name="toggleDarkMode"
+            aria-label="toggleDarkMode"
           >
             {isDarkMode ? (
               <CiSun className="bi bi-brightness-high hover:text-yellow-500 transform transition duration-300 text-2xl" />
