@@ -57,12 +57,12 @@ function Hero() {
               </p>
             </div>
             <div className="flex justify-center items-center">
-              <button className="text-base bg-sky-600 hover:bg-sky-900 hover:text-slate-300 transform transition duration-250 text-white pr-5 pl-5 pt-3 pb-3 rounded-3xl mt-5 cursor-pointer flex justify-center items-center">
-                <a href="../Resume.pdf" download>
-                  Download CV
-                </a>
-                <FaArrowAltCircleDown className="ml-1.5" />
-              </button>
+<button className="text-base bg-sky-600 hover:bg-sky-900 hover:text-white transform transition duration-250 text-white pr-5 pl-5 pt-3 pb-3 rounded-3xl mt-5 cursor-pointer flex justify-center items-center">
+  <a href="../sample.pdf" download>
+    Download CV
+  </a>
+  <FaArrowAltCircleDown className="ml-1.5" />
+</button>
             </div>
           </div>
         </motion.div>

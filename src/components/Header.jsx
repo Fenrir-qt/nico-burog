@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useDarkMode } from "../context/DarkModeContext";
-import "bootstrap-icons/font/bootstrap-icons.css";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { CiSun } from "react-icons/ci";
+import { IoMoonOutline } from "react-icons/io5";
 
 export default function Header() {
 
@@ -28,9 +30,9 @@ export default function Header() {
             onClick={toggleMenu}
             aria-label="Toggle navigation menu"
           >
-            <i className="bi bi-list text-2xl"></i>
+            <RxHamburgerMenu className="text-2xl" />
           </button>
-          <ul
+          <nav
             className={`text-white sm:text-black transition duration-100 transform ease-in-out ${
               isDarkMode ? "ul-dark-font" : ""
             } cursor-pointer flex flex-col md:flex-row gap-5 
@@ -38,35 +40,28 @@ export default function Header() {
             md:p-0 rounded-md shadow-md md:shadow-none 
             ${isMenuOpen ? "block" : "hidden"} md:flex`}
           >
-            <NavLink to="/">
-              <li className="ml-auto hover:text-sky-600 transform transition duration-300">
+            <NavLink to="/" className="hover:text-sky-600 transform transition duration-300">
                 Home
-              </li>
             </NavLink>
-            <NavLink to="/projects">
-              <li className="hover:text-sky-600 transform transition duration-300">
+            <NavLink to="/projects" className="hover:text-sky-600 transform transition duration-300">       
                 Projects
-              </li>
             </NavLink>
-            <NavLink to="/skills">
-              <li className="hover:text-sky-600 transform transition duration-300">
+            <NavLink to="/skills" className="hover:text-sky-600 transform transition duration-300">  
                 Skills
-              </li>
             </NavLink>
-            <NavLink to="/contact">
-              <li className="mr-5 hover:text-sky-600 transform transition duration-300">
+            <NavLink to="/contact" className="mr-5 hover:text-sky-600 transform transition duration-300">
                 Contact
-              </li>
             </NavLink>
-          </ul>
+          </nav>
           <button
             onClick={toggleDarkMode}
             className="cursor-pointer"
+            name="toggleDarkMode"
           >
             {isDarkMode ? (
-              <i className="bi bi-brightness-high hover:text-yellow-500 transform transition duration-300"></i>
+              <CiSun className="bi bi-brightness-high hover:text-yellow-500 transform transition duration-300 text-2xl" />
             ) : (
-              <i className="bi bi-moon hover:text-sky-600 transform transition duration-300"></i>
+              <IoMoonOutline className="bi bi-moon hover:text-sky-600 transform transition duration-300 text-xl" />
             )}
           </button>
         </div>
